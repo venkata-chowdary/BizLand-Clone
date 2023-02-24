@@ -1,0 +1,53 @@
+@keyframes slideright{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX((0));
+        opacity: 1;
+    }
+}
+
+@keyframes sliderleft{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes bottomTotop{
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes fillColor{
+    0%{
+        background-color: aqua;
+        opacity: 0;
+    }
+    100%{
+        background-color: aqua;
+        opacity: 1;
+    }
+}
+
+@keyframes smooth {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
