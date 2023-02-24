@@ -162,7 +162,7 @@ header .menu-btn{
 /**Main**/
 .hero{
     height: 75vh;
-    background:url(img/hero-bg.jpg);
+    background:url(hero-bg.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
